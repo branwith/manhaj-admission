@@ -1,4 +1,4 @@
-# campaigner
+# MANHAJ ADMISSION CAMPAIGN
 'npm i'
 To run server 'npm run dev'
 To build in production 'npm run build'
