@@ -47,7 +47,7 @@
     countvisits();
 
     function countvisits() {
-      fetch('https://api.countapi.xyz/update/admission.manhajchelembra.com/admission/?amount=1')
+      fetch('https://api.countapi.xyz/update/admission.manhajchelembra.com/Admissioncounter/?amount=1')
         .then((res) => res.json())
         .then((res) => {
           countEl.innerHTML = res.value;
