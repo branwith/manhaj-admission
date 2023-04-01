@@ -36,5 +36,29 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+<div class="counter">
+  <p>This website was opened by</p>
+  <h1 id="count">0</h1>
+  <p>people</p>
+
+  <script>
+    const countEl = document.getElementById("count");
+    countvisits();
+
+    function countvisits() {
+      fetch('https://api.countapi.xyz/update/admission.manhajchelembra.com/admission/?amount=1')
+        .then((res) => res.json())
+        .then((res) => {
+          countEl.innerHTML = res.value;
+        });
+    }
+  </script>
+</div>
+
+
+
+
+
   </body>
 </html>
