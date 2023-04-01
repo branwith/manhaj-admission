@@ -188,7 +188,7 @@ export function App(props) {
           }
         }}
       ></div>
-      <img src="fzone.jpg" className="spBanner" alt=""/>
+      {/* <img src="fzone.jpg" className="spBanner" alt=""/> */}
       <Preview></Preview>
       <Cropper
         setCroppedImg={setCroppedImg}
